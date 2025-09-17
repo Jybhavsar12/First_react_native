@@ -63,26 +63,8 @@ FirstProject/
 - Node.js: v22.13.0
 - React Native: 20.0.0
 - Android Studio: Android Studio Hedgehog | 2023.1.1 Patch 2
-Build #AI-231.9392.1.2311.11330709, built on January 18, 2024
-Runtime version: 17.0.7+0-17.0.7b1000.6-10550314 x86_64
-VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
-macOS 15.6.1
-GC: G1 Young Generation, G1 Old Generation
-Memory: 2048M
-Cores: 8
-Metal Rendering is ON
-Registry:
-    external.system.auto.import.disabled=true
-    ide.text.editor.with.preview.show.floating.toolbar=false
-    ide.experimental.ui=true
+
 
 
 - VS Code: Version: 1.96.2 (Universal)
-Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f
-Date: 2024-12-19T10:22:47.216Z
-Electron: 32.2.6
-ElectronBuildId: 10629634
-Chromium: 128.0.6613.186
-Node.js: 20.18.1
-V8: 12.8.374.38-electron.0
-OS: Darwin arm64 24.6.0
+
