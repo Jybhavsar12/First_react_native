@@ -1,4 +1,4 @@
-# My First React Native App - CPAN 213
+![answer 2025-09-11 at 11 00 29 PM](https://github.com/user-attachments/assets/ae66c291-6874-4ea3-9737-9ec44a77be2c)# My First React Native App - CPAN 213
 
 #### Description
 This is my first React Native application created for CPAN 213 course.
@@ -51,7 +51,13 @@ FirstProject/
 ├── .gitignore                 # Git ignore rules
 └── node_modules/              # Dependencies (auto-generated)
 ```
-  
+
+
+### Sample output 
+
+![answer 2025-09-11 at 11 06 39 PM](https://github.com/user-attachments/assets/2c660d83-7d42-4529-9a27-11ba371ada09)
+![answer 2025-09-11 at 11 00 29 PM](https://github.com/user-attachments/assets/c8b87989-bd3c-45a8-9809-e735d9a1bf8c)
+
 
 #### Development Environment
 - Node.js: v22.13.0
