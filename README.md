@@ -1,68 +1,82 @@
-# CPAN 213 - First React Native Project
+# My First React Native App - CPAN 213
 
-A simple React Native application created for CPAN 213 (Cross-Platform Mobile Development) course.
+#### Description
+This is my first React Native application created for CPAN 213 course.
 
-## Student Information
-- **Name**: Jyot Harshakumar Bhavsar
-- **Student ID**: N01738884
-- **Program**: Computer Programming
+#### Student Information
+- Name: Jyot Harshakumar Bhavsar
+- Student ID: N01738884
+- Course: CPAN 213 - Cross-Platform Mobile Application Development
+- Date: September 17, 2025
 
-## Project Description
-This is a basic React Native app that displays a welcome screen with student information. The app demonstrates fundamental React Native concepts including:
-- SafeAreaView for proper screen layout
-- StyleSheet for component styling
-- Text and View components
-- Basic app structure
+#### Getting Started
+1. Clone this repository
+2. Run `npm install`
+3. Run `npx react-native run-android` or `npx react-native run-ios`
 
-## Features
-- Welcome header with course information
-- Student details display
-- Responsive design with proper styling
-- Cross-platform compatibility
-
-## Installation & Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- React Native CLI
-- Android Studio (for Android development)
-- Xcode (for iOS development - macOS only)
-
-### Running the App
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd FirstProject
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. For iOS:
-```bash
-npx react-native run-ios
-```
-
-4. For Android:
-```bash
-npx react-native run-android
-```
-
+#### Features Implemented
+- Custom welcome screen
+- Personal information display
+- Course goals section
+- Custom styling with StyleSheet
+  
 ## Project Structure
 ```
 FirstProject/
-├── App.tsx          # Main application component
-├── package.json     # Project dependencies
-└── README.md        # Project documentation
+├── App.tsx                    # Main application component
+├── package.json               # Project dependencies and scripts
+├── README.md                  # Project documentation
+├── metro.config.js            # Metro bundler configuration
+├── react-native.config.js     # React Native configuration
+├── tsconfig.json              # TypeScript configuration
+├── babel.config.js            # Babel transpiler configuration
+├── jest.config.js             # Jest testing configuration
+├── android/                   # Android-specific files
+│   ├── app/
+│   │   ├── src/main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   └── java/com/firstproject/
+│   │   └── build.gradle
+│   ├── gradle/
+│   └── settings.gradle
+├── ios/                       # iOS-specific files
+│   ├── FirstProject/
+│   │   ├── Info.plist
+│   │   ├── AppDelegate.h
+│   │   └── AppDelegate.mm
+│   ├── FirstProject.xcodeproj/
+│   └── Podfile
+├── __tests__/                 # Test files
+│   └── App.test.tsx
+├── .gitignore                 # Git ignore rules
+└── node_modules/              # Dependencies (auto-generated)
 ```
+  
 
-## Technologies Used
-- React Native
-- TypeScript
-- React Hooks
+#### Development Environment
+- Node.js: v22.13.0
+- React Native: 20.0.0
+- Android Studio: Android Studio Hedgehog | 2023.1.1 Patch 2
+Build #AI-231.9392.1.2311.11330709, built on January 18, 2024
+Runtime version: 17.0.7+0-17.0.7b1000.6-10550314 x86_64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+macOS 15.6.1
+GC: G1 Young Generation, G1 Old Generation
+Memory: 2048M
+Cores: 8
+Metal Rendering is ON
+Registry:
+    external.system.auto.import.disabled=true
+    ide.text.editor.with.preview.show.floating.toolbar=false
+    ide.experimental.ui=true
 
-## Course
-CPAN 213 - Cross-Platform Mobile Development
+
+- VS Code: Version: 1.96.2 (Universal)
+Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f
+Date: 2024-12-19T10:22:47.216Z
+Electron: 32.2.6
+ElectronBuildId: 10629634
+Chromium: 128.0.6613.186
+Node.js: 20.18.1
+V8: 12.8.374.38-electron.0
+OS: Darwin arm64 24.6.0
