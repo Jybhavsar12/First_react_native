@@ -10,7 +10,7 @@ This is my first React Native application created for CPAN 213 course.
 - Date: September 17, 2025
 
 #### Getting Started
-1. Clone this repository
+1. Clone this repository : git clone https://github.com/Jybhavsar12/First_react_native.git
 2. Run `npm install`
 3. Run `npx react-native run-android` or `npx react-native run-ios`
 
