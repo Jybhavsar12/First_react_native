@@ -1,4 +1,4 @@
-![answer 2025-09-11 at 11 00 29 PM](https://github.com/user-attachments/assets/ae66c291-6874-4ea3-9737-9ec44a77be2c)# My First React Native App - CPAN 213
+# My First React Native App - CPAN 213
 
 #### Description
 This is my first React Native application created for CPAN 213 course.
